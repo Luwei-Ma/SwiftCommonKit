@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftCommonKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftCommonKit.'
+  s.summary          = 'SwiftCommonKit is a library of system class extensions and common controls.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: Add long description of the pod here. SwiftKit is a library of system class extensions and common controls.
                        DESC
 
-  s.homepage         = 'https://github.com/maluwei0216@gmail.com/SwiftCommonKit'
+  s.homepage         = 'https://github.com/Luwei-Ma/SwiftCommonKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'maluwei0216@gmail.com' => 'maluwei0216@gmail.com' }
-  s.source           = { :git => 'https://github.com/maluwei0216@gmail.com/SwiftCommonKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Luwei-Ma/SwiftCommonKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
+  
+  s.swift_version = '5.0'
 
   s.source_files = 'SwiftCommonKit/Classes/**/*'
   
